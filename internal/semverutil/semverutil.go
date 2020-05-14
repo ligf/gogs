@@ -7,7 +7,7 @@ package semverutil
 import (
 	"strings"
 
-	"github.com/Masterminds/semver/v3"
+	"github.com/Masterminds/semver/v3 v3.1.0"
 )
 
 // Compare returns true if the comparison is true for given versions. It returns false if
