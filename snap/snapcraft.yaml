@@ -5,6 +5,8 @@
   summary: git server
   description: |
     This is my-snap's description. 
+  confinement: devmode
+  base: core18
 
   parts:
     gogs-ligf:
