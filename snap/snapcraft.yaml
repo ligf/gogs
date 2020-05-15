@@ -5,7 +5,7 @@
   summary: git server
   description: |
     This is my-snap's description. 
-  confinement: devmode
+  confinement: strict
   base: core18
 
   parts:
@@ -20,7 +20,3 @@
     gogs-ligf:
       command: bin/gogs web
       daemon: simple
-      plugs:
-        - home
-        - network
-        - network-bind
