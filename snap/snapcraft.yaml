@@ -18,4 +18,9 @@ name: gogs-ligf
   apps:
     gogs-ligf:
       command: bin/gogs web
+      plugs:
+      - home
+      - network
+      - network-bind
+      - removable-media
       daemon: simple
