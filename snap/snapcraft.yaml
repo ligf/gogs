@@ -5,7 +5,6 @@
   summary: git server
   description: |
     This is my-snap's description. 
-  grade: stable
   confinement: strict
   base: core18
 
