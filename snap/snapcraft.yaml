@@ -1,7 +1,7 @@
 
   # After registering a name on build.snapcraft.io, commit an uncommented line:
   name: gogs-ligf
-  version: git
+  version: 0.11
   summary: git server
   description: |
     This is my-snap's description. 
@@ -11,7 +11,6 @@
 
   parts:
     gogs-ligf:
-      # See 'snapcraft plugins'
       plugin: go
       go-importpath: github.com/ligf/gogs
       source: .
