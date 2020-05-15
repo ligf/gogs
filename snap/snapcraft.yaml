@@ -23,5 +23,4 @@ name: gogs-ligf
       - home
       - network
       - network-bind
-      - removable-media
       daemon: simple
