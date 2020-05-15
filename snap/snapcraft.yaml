@@ -1,5 +1,5 @@
 name: gogs-ligf
-  version: git
+  version: '0.11.91'
   summary: git server
   description: |
     This is my-snap's description. 
@@ -11,7 +11,8 @@ name: gogs-ligf
       # See 'snapcraft plugins'
       plugin: go
       go-importpath: github.com/ligf/gogs
-      source: .
+      source: github.com/ligf/gogs.git
+      source-tag: 'v0.11.91'
       source-type: git
       build-packages:
       - gcc
