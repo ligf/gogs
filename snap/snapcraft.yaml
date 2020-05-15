@@ -22,3 +22,7 @@
     gogs-ligf:
       command: bin/gogs web
       daemon: simple
+      plugs:
+        - home
+        - network
+        - network-bind
