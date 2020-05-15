@@ -1,7 +1,7 @@
 
   # After registering a name on build.snapcraft.io, commit an uncommented line:
   name: gogs-ligf
-  version: 0.11
+  version: '0.11.91'
   summary: git server
   description: |
     This is my-snap's description. 
