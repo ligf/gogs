@@ -5,7 +5,7 @@
   summary: git server
   description: |
     This is my-snap's description. 
-  confinement: strict
+  confinement: devmode
   base: core18
 
   parts:
