@@ -13,8 +13,6 @@
       plugin: go
       # go-buildtags: 'v0.11.91'
       source-type: git
-      build-packages:
-      - gcc
   apps:
     gogs-ligf:
       command: bin/gogs web
