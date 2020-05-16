@@ -10,6 +10,8 @@
   parts:
     gogs-ligf:
       # See 'snapcraft plugins'
+      source: https://github.com/ligf/gogs.git
+      source-tag: 'v0.11.91'
       plugin: go
       # go-buildtags: 'v0.11.91'
       source-type: git
