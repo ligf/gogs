@@ -12,7 +12,7 @@
       # See 'snapcraft plugins'
       plugin: go
       go-importpath: github.com/ligf/gogs
-      source: github.com/ligf/gogs.git
+      source: https://github.com/ligf/gogs.git
       source-tag: 'v0.11.91'
       source-type: git
       build-packages:
