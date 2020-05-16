@@ -11,7 +11,7 @@
     gogs-ligf:
       # See 'snapcraft plugins'
       plugin: go
-      go-buildtags: 'v0.11.91'
+      # go-buildtags: 'v0.11.91'
       source-type: git
       build-packages:
       - gcc
